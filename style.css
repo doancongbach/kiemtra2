@@ -1,0 +1,146 @@
+body{
+    background: url(./assets/img/th.jfif);
+    background-size: cover;
+    background-position-y: -200px;
+    position: relative;
+}
+
+.text{
+    position: absolute;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #fff;
+    top: -87px;
+    right: -50px;
+}
+
+.wrapper{
+    position: absolute;
+    margin: 50px;
+}
+
+.form{
+    background: rgb(255, 255, 255);
+    max-width: 780px;
+    height: 510px;
+}
+
+.form .text-form{
+    color: aqua;
+}
+
+.form-login{
+    position: relative;
+
+    padding: 30px 30px 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.form-heading{
+    color: #333;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 30px;
+}
+
+.form-group input{
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    border-top: 0.1px solid rgb(216, 216, 216);
+
+    width: 330px;
+    padding-bottom: 15px;
+}
+
+.form-group-message input{
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    border-top: 0.1px solid rgb(216, 216, 216);
+
+    width: 714px;
+    padding-bottom: 160px;
+}
+
+.form-input{
+    background: transparent;
+    border: 0;
+    outline: 0;
+}
+
+.form-submit{
+    position: absolute;
+    background: transparent;
+    border: none;
+    background-color: violet;
+    color: #fff;
+    padding: 15px 40px;
+    left: 30px;
+}
+
+.text-form{
+    margin-bottom: 0;
+}
+
+
+.contact{
+    position: absolute;
+    background-color: rgb(32, 38, 97);
+    top: 0;
+    right: -430px;
+    width: 410px; 
+    height: 300px;
+}
+
+.contact-show{
+    transform: translate(50px, 30px);
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.contact-item{
+    display: flex;
+}
+
+.contact .contact-icon i{
+    color: #fff;
+    border-radius: 50%;
+    background-color:aqua;
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.contact-text {
+    transform: translate(20px, 8px);
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+
+.contact-text p{
+    margin-bottom: 25px;
+    margin-top: 0;
+}
+
+.contact-link i{
+    padding: 10px 10px;
+    font-size: 25px;
+}
+
+
+
+.map {
+    position: absolute;
+    top: 370px;
+    right: 90px;
+}
